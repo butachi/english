@@ -1,0 +1,29 @@
+{
+    "name": "hungnt/english",
+    "description": "English Dictionary",
+    "authors": [
+        {
+            "name": "tamhung",
+            "email": "butachi@live.com"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "git",
+          "url": "git@github.com:butachi/ethna.git"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+          "Tutorial": "frontend/english/app/"
+        }
+    },
+    "include-path": ["vendor/gree/cascade/class"],
+    "require": {
+        "ethna/ethna": "dev-feature/2.6.0beta4-composer",
+        "smarty/smarty": "v3.1.13",
+        "gree/cascade": "dev-develop",
+        "michelf/php-markdown": "*",
+        "pear/console_commandline": "dev-master"
+    }
+}
