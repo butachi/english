@@ -15,6 +15,7 @@ $app = BASE . "/app";
 $lib = BASE . "/lib";
 set_include_path(implode(PATH_SEPARATOR, array($app, $lib)) . PATH_SEPARATOR . get_include_path());
 
+require_once dirname(dirname(dirname(dirname(__FILE__)))) . '/vendor/autoload.php';
 
 /** including application library. */
 require_once 'Ethna/Ethna.php';
