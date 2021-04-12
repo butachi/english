@@ -1,0 +1,337 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "af6a1b0d4e8e084f4c02b71b27f93d4e",
+    "packages": [
+        {
+            "name": "ethna/ethna",
+            "version": "dev-feature/2.6.0beta4-composer-php7",
+            "target-dir": "Ethna",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:butachi/ethna.git",
+                "reference": "d1b86c68419922477c8ad7768a7321b58f0cd846"
+            },
+            "bin": [
+                "composer/bin/ethna"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class/"
+                ],
+                "files": [
+                    "Ethna/Ethna.php"
+                ]
+            },
+            "time": "2021-04-02T01:47:17+00:00"
+        },
+        {
+            "name": "gree/cascade",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gree/cascade.git",
+                "reference": "a24b595290cf99e8dedd9e19df032528e23929a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gree/cascade/zipball/a24b595290cf99e8dedd9e19df032528e23929a9",
+                "reference": "a24b595290cf99e8dedd9e19df032528e23929a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.14"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Cascade": "class"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT License"
+            ],
+            "authors": [
+                {
+                    "name": "Yoshinobu Kinugasa",
+                    "email": "yoshinobu.kinugasa@gree.net",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Takumi Takahashi",
+                    "email": "takumi.takahashi@gree.net",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Hiroki Uemura",
+                    "email": "hiroki.uemura@gree.net",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Cascade defines a lightweight, consistent interface for accessing databases in PHP",
+            "homepage": "https://github.com/pages/gree/cascade",
+            "keywords": [
+                "cascade",
+                "gree"
+            ],
+            "support": {
+                "issues": "https://github.com/gree/cascade/issues",
+                "source": "https://github.com/gree/cascade/tree/develop"
+            },
+            "time": "2014-02-11T11:51:11+00:00"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "c83178d49e372ca967d1a8c77ae4e051b3a3c75c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/c83178d49e372ca967d1a8c77ae4e051b3a3c75c",
+                "reference": "c83178d49e372ca967d1a8c77ae4e051b3a3c75c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.3 <5.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Michelf\\": "Michelf/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "support": {
+                "issues": "https://github.com/michelf/php-markdown/issues",
+                "source": "https://github.com/michelf/php-markdown/tree/1.9.0"
+            },
+            "time": "2019-12-02T02:32:27+00:00"
+        },
+        {
+            "name": "pear/console_commandline",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Console_CommandLine.git",
+                "reference": "331b295d00c9fa2dae30fe14538d430d72d954c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/Console_CommandLine/zipball/331b295d00c9fa2dae30fe14538d430d72d954c6",
+                "reference": "331b295d00c9fa2dae30fe14538d430d72d954c6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-xml": "*",
+                "pear/pear_exception": "^1.0.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Console": "./"
+                },
+                "exclude-from-classmap": [
+                    "tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Quadling",
+                    "email": "rquadling@gmail.com"
+                },
+                {
+                    "name": "David Jean Louis",
+                    "email": "izimobil@gmail.com"
+                }
+            ],
+            "description": "A full featured command line options and arguments parser.",
+            "homepage": "https://github.com/pear/Console_CommandLine",
+            "keywords": [
+                "console"
+            ],
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Console_CommandLine",
+                "source": "https://github.com/pear/Console_CommandLine"
+            },
+            "time": "2020-04-16T15:04:15+00:00"
+        },
+        {
+            "name": "pear/pear_exception",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/PEAR_Exception.git",
+                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
+                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "<9"
+            },
+            "type": "class",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PEAR/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "."
+            ],
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Helgi Thormar",
+                    "email": "dufuz@php.net"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "cellog@php.net"
+                }
+            ],
+            "description": "The PEAR Exception base class.",
+            "homepage": "https://github.com/pear/PEAR_Exception",
+            "keywords": [
+                "exception"
+            ],
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR_Exception",
+                "source": "https://github.com/pear/PEAR_Exception"
+            },
+            "time": "2021-03-21T15:43:46+00:00"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v3.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "7b2a2c4a883ba745759fb5db26ab8134a5ae282b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/7b2a2c4a883ba745759fb5db26ab8134a5ae282b",
+                "reference": "7b2a2c4a883ba745759fb5db26ab8134a5ae282b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/SmartyBC.class.php",
+                    "libs/sysplugins/smarty_security.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "support": {
+                "forum": "http://www.smarty.net/forums/",
+                "irc": "irc://irc.freenode.org/smarty",
+                "issues": "http://code.google.com/p/smarty-php/issues/list",
+                "source": "https://github.com/smarty-php/smarty/tree/v3.1.13"
+            },
+            "time": "2014-10-31T00:47:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ethna/ethna": 20,
+        "gree/cascade": 20,
+        "pear/console_commandline": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

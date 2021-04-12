@@ -20,7 +20,7 @@
     },
     "include-path": ["vendor/gree/cascade/class"],
     "require": {
-        "ethna/ethna": "dev-feature/2.6.0beta4-composer",
+        "ethna/ethna": "dev-feature/2.6.0beta4-composer-php7",
         "smarty/smarty": "v3.1.13",
         "gree/cascade": "dev-develop",
         "michelf/php-markdown": "*",
